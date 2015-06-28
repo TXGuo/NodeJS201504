@@ -25,7 +25,5 @@ function waiter(req,res){
     } else{
         res.end(url);
     }
-
-
 }
 server.listen(8080,'localhost');
